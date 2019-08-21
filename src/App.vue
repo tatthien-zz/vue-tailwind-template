@@ -1,12 +1,14 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app" class="text-center">
+    <img src="./assets/logo.png" alt="Vue logo" class="inline-block" />
+    <img src="./assets/tailwindcss.svg" alt="Tailwind logo" class="inline-block w-64"/>
+    <HelloWorld msg="A template for making web app with Vue.js and Tailwind." />
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue';
+import './styles/style.scss';
 
 export default {
   name: 'app',
@@ -15,14 +17,3 @@ export default {
   },
 };
 </script>
-
-<style lang="scss">
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>

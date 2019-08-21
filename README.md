@@ -1,23 +1,23 @@
 # vue-tailwind-template
 
-## Project setup
+A template for making web app with Vue.js and Tailwind.
+
+## How to use
+
+### Install all dependencies
+
 ```
-yarn install
+$ yarn install
 ```
 
 ### Compiles and hot-reloads for development
 ```
-yarn run serve
+$ yarn dev
 ```
 
 ### Compiles and minifies for production
 ```
-yarn run build
-```
-
-### Run your tests
-```
-yarn run test
+$ yarn build
 ```
 
 ### Lints and fixes files
@@ -25,5 +25,6 @@ yarn run test
 yarn run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Credit
+
+- Color shades by [huytd](https://github.com/huytd/electron-typescript-react-tailwind-parcel)
