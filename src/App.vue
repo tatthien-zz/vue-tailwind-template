@@ -1,7 +1,7 @@
 <template>
   <div id="app" class="text-center">
     <img src="./assets/logo.png" alt="Vue logo" class="inline-block" />
-    <img src="./assets/tailwindcss.svg" alt="Tailwind logo" class="inline-block w-64"/>
+    <img src="./assets/tailwindcss.svg" alt="Tailwind Logo" class="inline-block w-64"/>
     <HelloWorld msg="A template for making web app with Vue.js and Tailwind." />
   </div>
 </template>
